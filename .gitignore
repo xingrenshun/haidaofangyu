@@ -1,0 +1,13 @@
+/Temp
+/WebGL
+/.vs
+/Library
+/Logs
+/obj
+/UserSettings
+
+# 构建产物（非源码，体积大）
+/webgl
+/wasm_symbols
+/tt-minigame
+/webgl_package-*.zip

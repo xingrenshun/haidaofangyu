@@ -1,0 +1,82 @@
+private string videoAdid = "9g308s9uunm5gkjc5l";
+
+public void TouchWatchAds()
+    {
+videoAdid = VideData.Instance.GetVide();
+        TTSDK.TTRewardedVideoAd r = AdMgr.Instance.ShowVideoAdNew(videoAdid);
+
+        //创建激励视频关闭回调
+        r.OnClose += (bol, val) =>
+        {
+            Debug.Log("关闭广告 ，是否已经看完" + bol);
+            //看完广告获得提示
+            if (bol)
+            {
+                UserDataMgr.Instance.cash += 10000;
+                GameScene.Instance.RefreshCash();
+                GameScene.Instance.RefreshAsset();
+                MaidianNew.MaidianBackCallback(" ");
+                Debug.Log("广告看完");
+            }
+            else
+            {
+                Debug.Log("广告未看完");
+            }
+        };
+
+        //创建报错回调  
+        r.OnError += (code, errorMessage) =>
+        {
+            
+            Debug.Log("code:" + code + "错误信息：" + errorMessage);
+        };
+
+        //展示广告（新版本必须调用，不然无法展示出来广告）
+        r.Show();
+
+    }
+
+string videoAdid = VideData.Instance.GetVide();
+TTSDK.TTRewardedVideoAd r = AdMgr.Instance.ShowVideoAdNew(videoAdid);
+
+//创建激励视频关闭回调
+r.OnClose += (bol, val) =>
+{
+    UnityEngine.Debug.Log("关闭广告 ，是否已经看完" + bol);
+    //看完广告获得提示
+    if (bol)
+    {
+        if (this.freeCoinData.watchAds == this.config.freeCash.watchAdLimited)
+        {
+            return;
+        }
+        this.freeCoinData.watchAds++;
+        if (this.freeCoinData.watchAds == this.config.freeCash.watchAdLimited)
+        {
+            this.freeCoinData.lastTimeWatchAd = DateTime.Now.ToString();
+        }
+        Singleton<GameManager>.Instance.SetDiamond(this.config.freeCash.diamondBonus);
+        Notification.instance.Warning("收到 <color=#00FFDFFF>" + this.config.freeCash.diamondBonus.ToString() + "</color> 钻石");
+        Singleton<SoundManager>.Instance.Play("Rewarded");
+        this.FreeCashValidate();
+        Tracking.instance.Ads_Impress("reward", "GetFreeDiamond");
+        MaidianNew.MaidianBackCallback(" ");
+        UnityEngine.Debug.Log("广告看完");
+    }
+    else
+    {
+        UnityEngine.Debug.Log("广告未看完");
+    }
+};
+
+//创建报错回调  
+r.OnError += (code, errorMessage) =>
+{
+
+    UnityEngine.Debug.Log("code: " + code + " 错误信息: " + errorMessage);
+    Notification.instance.Warning("无可播放视频.");
+    Singleton<SoundManager>.Instance.Play("Notification");
+};
+
+//展示广告（新版本必须调用，不然无法展示出来广告）
+r.Show();

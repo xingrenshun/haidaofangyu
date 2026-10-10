@@ -1,0 +1,122 @@
+项目: D:\Unity\haidaofangyu (2)
+扫描 Assets 下文件总数: 1891
+Assets 总大小: 63.14 MB
+
+=== 字体文件 ===
+小计: 8 个, 9.97 MB
+  3.32 MB    general\UIFont\汉仪蝶语体简 1.TTF
+  3.32 MB    general\UIFont\汉仪蝶语体简.TTF
+  1.94 MB    general\UIFont\Font_JCY.ttf
+  1.34 MB    general\UIFont\本墨陈黑.TTF
+  16.52 KB   Resources\Fonts\112_Soup of Justice.ttf
+  13.32 KB   Resources\Fonts\307_Pieces of Eight.ttf
+  6.20 KB    Resources\Fonts\42_Times New Roman.ttf
+  3.92 KB    Resources\Fonts\36_Myriad Pro Semibold.ttf
+
+=== 音频文件 ===
+小计: 38 个, 1.59 MB
+  530.74 KB  Resources\Sounds\2836_slow_music_zvuk.mp3
+  511.19 KB  Resources\Sounds\2867_tavern_music_zvuk.mp3
+  78.72 KB   Resources\Sounds\21_midnight_zvuk.mp3
+  76.46 KB   Resources\Sounds\24_defeat_zvuk.mp3
+  75.46 KB   Resources\Sounds\20_win_zvuk.mp3
+  38.00 KB   Resources\Sounds\22_enemy_zvuk.mp3
+  26.19 KB   Resources\Sounds\11_vampire_zvuk.mp3
+  18.86 KB   Resources\Sounds\31_bomba_zvuk.mp3
+  18.04 KB   Resources\Sounds\26_dead_people_zvuk.mp3
+  16.82 KB   Resources\Sounds\33_carabin_zvuk.mp3
+  13.88 KB   Resources\Sounds\9_pirat2_zvuk.mp3
+  12.34 KB   Resources\Sounds\27_dead_crab_zvuk.mp3
+  12.22 KB   Resources\Sounds\10_shot_zvuk.mp3
+  12.13 KB   Resources\Sounds\4_rum_place_zvuk.mp3
+  11.84 KB   Resources\Sounds\5_bomb_throw_zvuk.mp3
+  11.40 KB   Resources\Sounds\2_sword_zvuk.mp3
+  11.05 KB   Resources\Sounds\32_bomb_zvuk.mp3
+  11.00 KB   Resources\Sounds\30_buy_zvuk.mp3
+  10.71 KB   Resources\Sounds\14_take_pirat5_zvuk.mp3
+  10.31 KB   Resources\Sounds\3_hook_zvuk.mp3
+  10.31 KB   Resources\Sounds\ClickMap.mp3
+  9.37 KB    Resources\Sounds\34_hook2_zvuk.mp3
+  9.18 KB    Resources\Sounds\23_crab_zvuk.mp3
+  8.68 KB    Resources\Sounds\12_take_pirat7_zvuk.mp3
+  8.55 KB    Resources\Sounds\25_dead_zvuk.mp3
+  8.14 KB    Resources\Sounds\29_gold_zvuk.mp3
+  7.46 KB    Resources\Sounds\13_take_pirat4_zvuk.mp3
+  6.92 KB    Resources\Sounds\1_rum_drink_zvuk.mp3
+  6.64 KB    Resources\Sounds\15_take_pirat8_zvuk.mp3
+  6.23 KB    Resources\Sounds\19_take_pirat1_zvuk.mp3
+
+=== Mesh/模型文件 ===
+小计: 0 个, 0.00 B
+
+=== Resources 目录资源 ===
+小计: 1052 个, 31.69 MB
+  5.58 MB    Resources\Backgrounds\background 4.png
+  4.82 MB    Resources\Backgrounds\background 2.png
+  4.38 MB    Resources\Backgrounds\background 3.png
+  2.01 MB    Resources\Shapes\369.png
+  1.94 MB    Resources\Shapes\226.png
+  1.10 MB    Resources\Backgrounds\background 1.png
+  530.74 KB  Resources\Sounds\2836_slow_music_zvuk.mp3
+  511.19 KB  Resources\Sounds\2867_tavern_music_zvuk.mp3
+  254.57 KB  Resources\Shapes\2919.png
+  240.76 KB  Resources\Shapes\2924.png
+  240.72 KB  Resources\Shapes\3185.png
+  162.68 KB  Resources\Shapes\230.png
+  151.87 KB  Resources\Shapes\263.png
+  150.75 KB  Resources\Shapes\2921.png
+  138.27 KB  Resources\Shapes\2851.png
+  126.31 KB  Resources\Shapes\3162.png
+  108.33 KB  Resources\Shapes\3175.png
+  106.99 KB  Resources\Shapes\234.png
+  104.79 KB  Resources\Shapes\366.png
+  100.53 KB  Resources\Shapes\2877.png
+  98.80 KB   Resources\Shapes\3217.png
+  95.18 KB   Resources\Shapes\255.png
+  93.61 KB   Resources\Shapes\229.png
+  93.53 KB   Resources\Shapes\2847.png
+  90.44 KB   Resources\Characters\2034.png
+  87.90 KB   Resources\Shapes\2848.png
+  84.70 KB   Resources\Characters\1770.png
+  83.37 KB   Resources\Shapes\3059.png
+  83.13 KB   Resources\Characters\1376.png
+  80.40 KB   Resources\Shapes\3227.png
+
+=== 场景文件 ===
+小计: 2 个, 933.46 KB
+  836.09 KB  Scenes\GamePlay.unity
+  97.37 KB   Scenes\MainMenu.unity
+
+=== 其他大文件 (>1MB) ===
+小计: 3 个, 4.26 MB
+  2.01 MB    general\UIFont\汉仪蝶语体简 SDF.asset
+  1.16 MB    OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.pdb
+  1.09 MB    Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll
+
+=== 按顶层目录统计 ===
+  31.62 MB   1020   Resources
+  12.89 MB   44     general
+  6.18 MB    170    NewUI
+  4.37 MB    171    Plugins
+  4.16 MB    111    OPS
+  2.37 MB    224    Animations
+  937.71 KB  8      Scenes
+  552.73 KB  52     Prefabs
+  54.07 KB   59     Scripts
+  45.86 KB   19     AdSDK
+  1.78 KB    2      Editor
+  214.00 B   1      Animations.meta
+  214.00 B   1      Prefabs.meta
+  214.00 B   1      Resources.meta
+  214.00 B   1      Scenes.meta
+  214.00 B   1      Scripts.meta
+  192.00 B   1      Plugins.meta
+  172.00 B   1      AdSDK.meta
+  172.00 B   1      Editor.meta
+  172.00 B   1      general.meta
+  172.00 B   1      NewUI.meta
+  172.00 B   1      OPS.meta
+
+=== 说明 ===
+源文件大小 ≠ 最终包体大小。Unity 会根据平台 Import Settings 重新压缩/采样。
+data-package 大的常见原因：字体（尤其中文字体）、大纹理/图集、未压缩音频、大量 Mesh、Resources 目录冗余。

@@ -1,0 +1,72 @@
+项目: D:\Unity\haidaofangyu (2)
+扫描图片总数: 576
+图片总大小: 31.85 MB
+
+=== 按目录统计（图片） ===
+Resources: 464 张, 27.97 MB
+NewUI: 82 张, 2.86 MB
+general: 6 张, 0.80 MB
+Plugins: 10 张, 0.21 MB
+OPS: 14 张, 0.02 MB
+
+=== TOP 50 最大图片文件 ===
+大小(MB)     类型                 路径                                                          
+5.58       SpriteMask         Resources\Backgrounds\background 4.png
+4.82       SpriteMask         Resources\Backgrounds\background 2.png
+4.38       SpriteMask         Resources\Backgrounds\background 3.png
+2.01       SpriteMask         Resources\Shapes\369.png
+1.94       SpriteMask         Resources\Shapes\226.png
+1.10       SpriteMask         Resources\Backgrounds\background 1.png
+0.74       SpriteMask         NewUI\BG.png
+0.50       SpriteMask         general\side\appicon.png
+0.37       SpriteMask         NewUI\shop_bg.png
+0.34       SpriteMask         NewUI\dutuBg.png
+0.25       SpriteMask         Resources\Shapes\2919.png
+0.24       SpriteMask         Resources\Shapes\2924.png
+0.24       SpriteMask         Resources\Shapes\3185.png
+0.16       SpriteMask         Resources\Shapes\230.png
+0.16       SpriteMask         general\side\背景.png
+0.15       SpriteMask         Resources\Shapes\263.png
+0.15       SpriteMask         Resources\Shapes\2921.png
+0.14       SpriteMask         NewUI\win.png
+0.14       SpriteMask         Resources\Shapes\2851.png
+0.13       SpriteMask         NewUI\logo.png
+0.12       SpriteMask         Resources\Shapes\3162.png
+0.12       SpriteMask         NewUI\baoxiang.png
+0.11       SpriteMask         Resources\Shapes\3175.png
+0.10       SpriteMask         Resources\Shapes\234.png
+0.10       SpriteMask         Resources\Shapes\366.png
+0.10       SpriteMask         Resources\Shapes\2877.png
+0.10       SpriteMask         Resources\Shapes\3217.png
+0.09       SpriteMask         Resources\Shapes\255.png
+0.09       SpriteMask         Resources\Shapes\229.png
+0.09       SpriteMask         Resources\Shapes\2847.png
+0.09       SpriteMask         Resources\Characters\2034.png
+0.09       SpriteMask         Resources\Shapes\2848.png
+0.08       SpriteMask         Resources\Characters\1770.png
+0.08       SpriteMask         Resources\Shapes\3059.png
+0.08       SpriteMask         Resources\Characters\1376.png
+0.08       SpriteMask         Resources\Shapes\3227.png
+0.08       SpriteMask         general\side\侧边栏按钮.png
+0.07       SpriteMask         NewUI\zhoamu.png
+0.07       SpriteMask         Resources\Shapes\2927.png
+0.07       Default            Plugins\ByteGame\com.bytedance.starksdk\DefaultTemplate\backgroundlandscape.png
+0.07       SpriteMask         Resources\Characters\2239.png
+0.07       SpriteMask         Resources\Characters\2241.png
+0.06       SpriteMask         Resources\Characters\1595.png
+0.06       SpriteMask         NewUI\box.png
+0.06       SpriteMask         Resources\Shapes\3250.png
+0.06       SpriteMask         Resources\Shapes\289.png
+0.06       SpriteMask         Resources\Shapes\2903.png
+0.06       SpriteMask         Resources\Shapes\236.png
+0.06       SpriteMask         Resources\Characters\884.png
+0.06       SpriteMask         Resources\Characters\1491.png
+
+=== UI 相关目录大文件（>100KB） ===
+
+=== 优化建议 ===
+1. UI Sprite 优先启用 Crunched Compression（PNG 可再压 50%+）
+2. 降低 UI 图集 Max Texture Size：一般 1024 足够，部分可 512
+3. 删除未引用/重复的 UI 资源（可用 Unity 内置 'Find References In Scene' 确认）
+4. 字体：TMP 字体中文字体体积大，考虑用动态字体 + 精简字符集
+5. 真机包体大头是 data-package，建议同时检查 Build Settings 的 Compression Format 与 Managed Stripping Level
